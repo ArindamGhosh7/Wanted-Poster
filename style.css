@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://i.imgur.com/K6g10BB.jpg');
+    background-repeat: repeat;
+    padding: 20px;
+}
+.poster{
+    width:488px;
+    height: 590px;
+    margin: auto;
+    box-sizing: border-box;
+    background-image: url('https://i.imgur.com/Y9Tiq8a.jpg');
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 4px 8px 3px #000000;
+}
+#mugshot{
+    width: 300px;
+    height: 325px;
+    border: 2px solid #291200;
+    margin: 10px 0px 10px 0px;
+    filter: sepia(60%);
+}
+h1, h2, p, #price{
+    color: #291200;
+}
+h1{
+    font-family: ewert;
+  font-size: 45pt;
+  font-weight: normal;
+  margin: 0px;
+}
+.subheading{
+    font-family: ultra;
+    font-size: 20px;
+}
+.name{
+    font-size: 22px;
+    font-family: ultra;
+}
+#price{
+    font-family: ultra;
+    font-size: 25px;
+}
